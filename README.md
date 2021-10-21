@@ -1,6 +1,6 @@
-# PSM Securithon - Challenge #1
+# PSM Securithon 2021 - Challenge #1
 
-Instructions:
+Goals:
 
 1. Download the source code and build the application
 2. Understand the application and identify the mechanism it uses
