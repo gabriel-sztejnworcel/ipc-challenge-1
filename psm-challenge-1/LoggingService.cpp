@@ -67,6 +67,9 @@ void LoggingService::run()
 
 void LoggingService::write_message(const std::string& msg)
 {
-    std::string cmd = "Powershell.exe -Command Add-Content -Path " + filename_ + " -Value " + msg;
-    system(cmd.c_str());
+    if (!msg.empty())
+    {
+        std::string cmd = "Powershell.exe -Command Add-Content -Path " + filename_ + " -Value " + msg;
+        system(cmd.c_str());
+    }
 }
