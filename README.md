@@ -1,4 +1,5 @@
-# PSM Securithon 2021 - Challenge #1
+# PSM Securithon 2021
+## Windows Interprocess Commnunication - Challenge #1
 
 Goals:
 
